@@ -1,0 +1,4 @@
+com/example/firebasedemo/BuildConfig.java
+ com.example.firebasedemo.BuildConfig
+com/example/firebasedemo/MainActivity.java
+ com.example.firebasedemo.MainActivity
