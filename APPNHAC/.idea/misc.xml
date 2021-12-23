@@ -7,24 +7,32 @@
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/drawable/mautim.xml" value="0.2604166666666667" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/activity_danh_sach_bai_hat.xml" value="0.18385416666666668" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/activity_danhsachcacplaylist.xml" value="0.24427083333333333" />
+        <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/activity_danhsachtatcaalbum.xml" value="0.2421875" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/activity_danhsachtatcachude.xml" value="0.24427083333333333" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/activity_danhsachtheloaitheochude.xml" value="0.24635416666666668" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/activity_main.xml" value="0.2164855072463768" />
+        <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/activity_play_nhac.xml" value="0.234375" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/dong_album.xml" value="0.19479166666666667" />
+        <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/dong_all_album.xml" value="0.23958333333333334" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/dong_baihat_hot.xml" value="0.18385416666666668" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/dong_banner.xml" value="0.19479166666666667" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/dong_cac_chu_de.xml" value="0.24427083333333333" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/dong_danhsach_baihat.xml" value="0.24427083333333333" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/dong_danhsach_cac_playlist.xml" value="0.24427083333333333" />
+        <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/dong_play_baihat.xml" value="0.1953125" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/dong_playlist.xml" value="0.19114583333333332" />
+        <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/dong_search_bai_hat.xml" value="0.19479166666666667" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/dong_theloai_theo_chude.xml" value="0.24635416666666668" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/fragment_album_hot.xml" value="0.24635416666666668" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/fragment_baihat_hot.xml" value="0.18385416666666668" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/fragment_banner.xml" value="0.24048913043478262" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/fragment_chude_theloai_today.xml" value="0.24635416666666668" />
+        <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/fragment_dia_nhac.xml" value="0.1953125" />
+        <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/fragment_play_danh_sach_bai_hat.xml" value="0.1953125" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/fragment_playlist.xml" value="0.19479166666666667" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/fragment_timkiem.xml" value="0.31929347826086957" />
         <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/layout/fragment_trangchu.xml" value="0.24048913043478262" />
+        <entry key="..\:/Document/Android/APPNHAC/app/src/main/res/menu/search_view.xml" value="0.22395833333333334" />
       </map>
     </option>
   </component>

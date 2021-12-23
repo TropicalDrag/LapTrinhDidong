@@ -39,6 +39,8 @@ public interface DataService {
     @GET("tatcachude.php")
     Call<List<Chude >> GetAllChuDe();
 
+    @GET("tatcaalbum.php")
+    Call<List<Album >> GetAllalbum();
 
     @FormUrlEncoded
     @POST("danhsachbaihat.php")
@@ -52,9 +54,21 @@ public interface DataService {
     @POST("danhsachbaihat.php")
     Call<List<Baihat>> GetDSBaiHatTheoTheLoai(@Field("idtheloai") String idtheloai);
 
-
     @FormUrlEncoded
     @POST("theloaitheochude.php")
     Call<List<Theloai>> GetTheloaitheoChude(@Field("idchude") String idchude);
+
+    @FormUrlEncoded
+    @POST("danhsachbaihat.php")
+    Call<List<Baihat>> GetDSBaiHatTheoAlbum(@Field("idalbum") String idalbum);
+
+    @FormUrlEncoded
+    @POST("luotthich.php")
+    Call<String> UpdateLuotThich(@Field("luotthich") String luotthich,@Field("idbaihat")String idbaihat);
+
+    @FormUrlEncoded
+    @POST("searchbaihat.php")
+    Call<List<Baihat>> GetSearchBaiHat(@Field("tukhoa") String tukhoa);
+
 
 }

@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <View
-        android:layout_width="wrap_content"
+    <com.google.android.material.appbar.AppBarLayout
+        android:background="@drawable/mautim"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/black"/>
-</LinearLayout>
+        android:id="@+id/appbarlayoutsearchbaihat">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarsearchbaihat"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/appbarlayoutsearchbaihat"
+        android:id="@+id/recycleviewsearchbaihat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">\
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:visibility="gone"
+        android:textColor="#f20"
+        android:gravity="center"
+        android:text="không có dữ liệu bài hát"
+        android:textSize="35sp"
+        android:id="@+id/textviewkhongcodulieu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

@@ -1,5 +1,6 @@
 package com.example.appnhaconline.Fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -13,6 +14,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.appnhaconline.Activity.DanhsachtatcaalbumActivity;
+import com.example.appnhaconline.Activity.DanhsachtheloaitheochudeActivity;
 import com.example.appnhaconline.Adapter.AlbumAdapter;
 import com.example.appnhaconline.Model.Album;
 import com.example.appnhaconline.R;
@@ -38,6 +41,13 @@ public class Fragment_Album_Hot extends Fragment {
         view = inflater.inflate(R.layout.fragment_album_hot,container,false);
         recyclerViewalbum = view.findViewById(R.id.recyclerviewAlbum);
         txtxemthemalbum = view.findViewById(R.id.textviewxemthemAlbum);
+        txtxemthemalbum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), DanhsachtatcaalbumActivity.class);
+                startActivity(intent);
+            }
+        });
         GetData();
         return  view;
     }

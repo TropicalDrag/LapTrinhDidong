@@ -34,9 +34,24 @@
             android:paddingLeft="5dp"
             android:paddingTop="5dp"
             android:paddingRight="5dp"
-            android:text="nhac......."
+            android:text="Nhac Viet VIP"
             android:textSize="15sp"
             android:textColor="#000000" />
+        <TextView
+            android:id="@+id/textviewtencasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:lines="1"
+            android:maxWidth="200dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:text="various Artists"
+            android:textSize="15sp"
+            android:textColor="#000000" />
+
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>

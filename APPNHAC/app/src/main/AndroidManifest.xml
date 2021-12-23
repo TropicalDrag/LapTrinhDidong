@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppNhacOnline">
         <activity
+            android:name=".Activity.PlayNhacActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DanhsachtatcaalbumActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activity.DanhsachtheloaitheochudeActivity"
             android:exported="false" />
         <activity

@@ -17,6 +17,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.appnhaconline.Activity.DanhsachbaihatActivity;
 import com.example.appnhaconline.Activity.DanhsachtatcachudeActivity;
+import com.example.appnhaconline.Activity.DanhsachtheloaitheochudeActivity;
 import com.example.appnhaconline.Model.Chude;
 import com.example.appnhaconline.Model.Theloai;
 import com.example.appnhaconline.Model.Theloaitrongngay;
@@ -81,6 +82,15 @@ public class Fragment_ChuDe_TheLoai_ToDay extends Fragment {
                     cardView.setLayoutParams(layout);
                     cardView.addView(imageView);
                     linearLayout.addView(cardView);
+                    int finalI = i;
+                    imageView.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Intent intent = new Intent(getActivity(), DanhsachtheloaitheochudeActivity.class);
+                            intent.putExtra("chude",chudeArrayList.get(finalI));
+                            startActivity(intent);
+                        }
+                    });
                 }
                 for (int j=0 ; j<(theLoaiArrayList.size()); j++){
                     CardView cardView = new CardView(getActivity());

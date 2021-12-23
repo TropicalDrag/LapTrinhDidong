@@ -44,19 +44,17 @@ public class DanhsachtheloaitheochudeActivity extends AppCompatActivity {
     private void GetData() {
         DataService dataservice = APIService.getService();
         Call<List<Theloai>> callback = dataservice.GetTheloaitheoChude(chuDe.getIDchude());
-        Log.d("FFF","SAI ROI EM");
         callback.enqueue(new Callback<List<Theloai>>() {
             @Override
             public void onResponse(Call<List<Theloai>> call, Response<List<Theloai>> response) {
                 ArrayList<Theloai> mangtheloai = (ArrayList<Theloai>) response.body();
-                Log.d("BBB",mangtheloai.get(0).getTentheloai());
-//                danhsachtheloaitheochudeAdapter = new DanhsachtheloaitheochudeAdapter(DanhsachtheloaitheochudeActivity.this,mangtheloai);
-//                recyclerViewtheloaitheochude.setLayoutManager(new GridLayoutManager(DanhsachtheloaitheochudeActivity.this,2));
-//                recyclerViewtheloaitheochude.setAdapter(danhsachtheloaitheochudeAdapter);
+                danhsachtheloaitheochudeAdapter = new DanhsachtheloaitheochudeAdapter(DanhsachtheloaitheochudeActivity.this,mangtheloai);
+                recyclerViewtheloaitheochude.setLayoutManager(new GridLayoutManager(DanhsachtheloaitheochudeActivity.this,2));
+               recyclerViewtheloaitheochude.setAdapter(danhsachtheloaitheochudeAdapter);
             }
             @Override
             public void onFailure(Call<List<Theloai>> call, Throwable t) {
-                Log.d("BBB","SAI ROI EM");
+                Log.d("FFF","SAI ROI EM");
             }
         });
     }
